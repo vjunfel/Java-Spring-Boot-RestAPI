@@ -24,10 +24,12 @@ management. It demonstrates how to set up a basic Spring Boot application with M
    git clone        
     ```
    Alternatively, you can download the project as a ZIP file and extract it.
+
 2. **Navigate to the Project Directory**: Open a terminal and navigate to the project directory:
    ```bash
    cd Java-Spring-Boot-RestAPI
    ```
+   
 3. **Configure MySQL Database**: Ensure that you have MySQL installed and running. Create a new database for the
    application:
    ```sql
@@ -40,15 +42,18 @@ management. It demonstrates how to set up a basic Spring Boot application with M
    spring.datasource.password=your_password
    spring.jpa.hibernate.ddl-auto=update
    ```
+   
 4. **Build the Application**: Use Maven to build the application:
    ```bash
    mvn clean install
    ```
+   
 5. **Run the Application**: Start the Spring Boot application:
    ```bash
    mvn spring-boot:run
    ```
    The application will start on `http://localhost:8080`.
+
 6. **Test the API**: You can use Postman or any API testing tool to test the REST endpoints. For example, to create
    a new user, send a POST request to `http://localhost:8080/api/users` with the following JSON body:
    ```json
@@ -58,7 +63,9 @@ management. It demonstrates how to set up a basic Spring Boot application with M
    }
     ```
    To retrieve all users, send a GET request to `http://localhost:8080/api/users`.
+
 7. **Stop the Application**: To stop the application, press `Ctrl + C` in the terminal where the application is running.
+
 8. **Optional - Run Tests**: If you have tests set up, you can run them using Maven:
    ```bash
    mvn test
