@@ -1,7 +1,7 @@
-package com.junfel.demo.service;
+package com.junfel.restapi.service;
 
-import com.junfel.demo.entity.Student;
-import com.junfel.demo.repository.StudentRepository;
+import com.junfel.restapi.entity.Student;
+import com.junfel.restapi.repository.StudentRepository;
 import org.springframework.stereotype.Service;
 
 @Service

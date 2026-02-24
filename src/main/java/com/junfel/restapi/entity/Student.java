@@ -1,4 +1,4 @@
-package com.junfel.demo.entity;
+package com.junfel.restapi.entity;
 
 import jakarta.persistence.*;
 import java.util.Objects;
